@@ -4,7 +4,7 @@ import e from '../event-bus'
 @Component({
   selector: 'AngularApp',
   template: `
-	<div style="margin-top: 100px;">
+	<div class="angular-side">
       <h1>This was written in Angular</h1>
       <p>{{message}}</p>
 	</div>

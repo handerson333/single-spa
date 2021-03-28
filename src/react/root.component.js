@@ -32,18 +32,13 @@ export default class Root extends React.Component {
 
   render() {
     return (
-      <div style={{ marginTop: '10px' }}>
-        <h1>This was written in React</h1>
-
-        <p>
-          <button onClick={this.sendMessage}>
-            Send a message to Angular
+      <div className="react-side">
+        <h1 >This was written in React</h1>
+        <button onClick={this.sendMessage}>
+          Send a message to Angular
           </button>
-        </p>
 
-        <p>
-          {this.state.message}
-        </p>
+        {this.state.message}
       </div>
     )
   }
